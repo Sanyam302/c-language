@@ -6,14 +6,17 @@ int main(){
     scanf("%d",&n);
     
     for(int j=1;j<=n;j++){
-        int a =1;
-        
+        for(int m=1;m<=n-j;m++){
+            printf("a");
+        }
         for(int i=1;i<=j ;i++){
+            int a =1;
             int d = a+64;
             char ch = (char)d;
 
-            printf("%c ",d);
+            printf("%c",d);
             a++;
+        
         }printf("\n");
 
     }return 0;
